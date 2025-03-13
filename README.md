@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ TrendTrunk - Fashion E-commerce Website
 
-## Getting Started
+Welcome to **TrendTrunk**, a modern and stylish e-commerce platform offering premium collections of footwear and apparel. Built with cutting-edge web technologies, TrendTrunk provides a seamless shopping experience with a responsive design and smooth animations.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Live Demo
+🔗 [View the Website](https://trend-trunk.vercel.app/) *(Add your live demo link here)*
+
+---
+
+## 📌 Features
+✅ **Modern UI/UX** - Sleek and responsive design using Next.js & Tailwind CSS.  
+✅ **Dynamic Product Display** - Fetches product details dynamically.  
+✅ **Shopping Cart** - Add, update, and remove items with live price calculation.  
+✅ **Multi-Step Checkout** - User-friendly checkout process.  
+✅ **Local Storage Integration** - Cart items persist across sessions.  
+✅ **Animated Loader** - Custom ghost animation while loading pages.  
+✅ **Mobile-Friendly** - Fully responsive across all devices.  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **State Management:** Context API  
+
+---
+
+## 📂 Project Structure
+```
+/TrendTrunk
+├── /components
+│   ├── header.jsx
+│   ├── footer.jsx
+│   ├── loader.jsx
+├── /cart
+│   ├── CartContext.js
+├── /pages
+│   ├── index.js (Home Page)
+│   ├── ProductPage.js
+│   ├── page.js (Product Wrapper)
+│   ├── checkout.js
+│   ├── cart.js
+│
+├── public/ (Assets like images)
+├── styles/ (Global Styles)
+├── README.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔧 Installation & Setup
+1️⃣ **Clone the repository**  
+```sh
+git clone https://github.com/Sumitchouhan774/TrendTrunk.git
+cd trendtrunk
+```
+2️⃣ **Install dependencies**  
+```sh
+npm install
+```
+3️⃣ **Run the development server**  
+```sh
+npm run dev
+```
+4️⃣ **Visit the website** at `http://localhost:3000`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏗️ Future Improvements
+- Backend integration with **Node.js & MongoDB**
+- User authentication & order tracking
+- Payment gateway integration
+- AI-powered product recommendations
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
+We welcome contributions! Feel free to fork this repository, submit issues, or open a pull request.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📜 License
+This project is licensed under the **MIT License**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Developed by **Sumit Chouhan**
