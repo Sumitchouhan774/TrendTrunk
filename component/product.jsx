@@ -43,7 +43,7 @@ export default function PopularProducts() {
           className="flex space-x-6 overflow-x-auto scroll-smooth no-scrollbar pb-4"
         >
           {[
-            { name: "Nike Dunk Low", price: "£109.95", img: "/p1.png", colors: "1 Colour" },
+            { name: "Nike Dunk Low", price: "£109.95", img: "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846954/p1_lkffff.png", colors: "1 Colour" },
             { name: "Air Jordan 1 Low", price: "£69.95", img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/ed8d46c0-d433-467c-a72a-c850d6380c85/NIKE+SB+DUNK+LOW+PRO.png", img1: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/a8ce5d7c-a802-4b74-9803-b3d94d2d9e5d/W+NIKE+TERRA+MANTA.png", colors: "1 Colour" },
             { name: "Nike Air Max Plus 3", price: "£184.95", img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/e8b0d625-4da5-4cc6-b7d8-92c5605078d0/NIKE+P-6000.png", colors: "1 Colour" },
             { name: "Nike Air Force 1", price: "£109.95", img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/0745eae3-6834-4a84-b310-8d66651f7472/AIR+FORCE+1+%28GS%29.png", colors: "1 Colour" },

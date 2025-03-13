@@ -18,7 +18,7 @@ export default function ProductPage() {
   const [loading, setLoading] = useState(true);
   const [isActive, setIsActive] = useState(false);
 
-  const productImages = [img, "/p2.png", "/p5.png", "/p6.png", "/p3.png", "/p7.png"];
+  const productImages = [img, "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846953/p2_yalj6c.png", "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846953/p5_b6q6gl.png", "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846951/p6_abhvtf.png", "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846952/p3_ox8urs.png", "https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846953/p7_omj7bs.png"];
 
   // ✅ Define the product object
   const product = {

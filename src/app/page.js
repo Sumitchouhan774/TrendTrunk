@@ -52,11 +52,11 @@ export default function Home() {
           {/* Image Section */}
           <div className="w-full flex justify-center mt-10 px-4">
             <div className="w-full max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] h-[300px] rounded-full bg-gradient-to-r from-lime-200 to-lime-400 flex items-center justify-center p-5 shadow-md">
-              <Image
-                width={500}
-                height={500}
+              <img
+                width="500"
+                height="500"
                 className="w-full h-auto hover:scale-110 transition-transform duration-300 -rotate-45"
-                src="/slide-3-removebg-preview.png"
+                src="https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846951/slide-3-removebg-preview_syqb5s.png"
                 alt="local"
               />
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -z-10 top-0 left-0 w-full h-full rounded-full scale-125"></div>
                 <img
-                  src="/funky.jpg"
+                  src="https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846958/funky_q9furl.jpg"
                   alt="Person with Camera"
                   className="relative w-[250px] sm:w-[300px] md:w-[350px] object-cover rounded-lg shadow-lg"
                 />

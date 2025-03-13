@@ -44,7 +44,7 @@ export default function CartPage() {
               ))}
             </div>
           ) : (
-            <img src="/empty.jpg" alt="empty-cart" className="w-full h-full object-cover" />
+            <img src="https://res.cloudinary.com/dtzc8igyz/image/upload/v1741846953/empty_wfekvi.jpg" alt="empty-cart" className="w-full h-full object-cover" />
           )}
         </div>
         <div className="w-full md:w-1/3 bg-gray-100 p-6 rounded-lg shadow-lg">
