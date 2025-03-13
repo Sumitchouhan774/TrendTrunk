@@ -57,7 +57,7 @@ export default function CartPage() {
             </p>
             <p className="text-1xl font-semibold text-black">£{subtotal.toLocaleString()}</p>
           </div>
-          <button onClick={() => router.push("/cart/checkout")} className="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Checkout</button>
+          {cart.length > 0 && <button onClick={() => router.push("/cart/checkout")} className="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Checkout</button>} 
         </div>
       </div>
     </div>
