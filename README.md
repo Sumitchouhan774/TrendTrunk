@@ -33,6 +33,7 @@ Welcome to **TrendTrunk**, a modern and stylish e-commerce platform offering pre
 │   ├── header.jsx
 │   ├── footer.jsx
 │   ├── loader.jsx
+|   ├── product.jsx
 ├── /cart
 │   ├── CartContext.js
 ├── /pages
