@@ -55,7 +55,7 @@ Welcome to **TrendTrunk**, a modern and stylish e-commerce platform offering pre
 1️⃣ **Clone the repository**  
 ```sh
 git clone https://github.com/Sumitchouhan774/TrendTrunk.git
-cd trendtrunk
+cd TrendTrunk
 ```
 2️⃣ **Install dependencies**  
 ```sh
