@@ -79,8 +79,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mt-6 text-gray-600 text-sm sm:text-base">
-                Our ultimate destination for discovering the essential pieces that will
-                elevate your style game to new heights.
+                TrendTrunk is your go-to destination for stylish and trendy clothing, offering a curated collection of modern fashion for every occasion. With a seamless shopping experience, high-quality apparel, and the latest styles, TrendTrunk ensures you stay ahead in fashion. Explore our collection and redefine your wardrobe with effortless elegance!
               </p>
 
               {/* Care Instructions & Fabric Material */}
@@ -119,7 +118,7 @@ export default function Home() {
             </div>
           </section>
 
-          <Footer/>
+          <Footer />
         </>
       )}
     </div>

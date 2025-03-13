@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 const Checkout = () => {
   const [paymentMethod, setPaymentMethod] = useState("card");
-  const { cart } = useCart();
+  const { cart, clearCart } = useCart();
   const router = useRouter();
   const [orderPlaced, setOrderPlaced] = useState(false);
 
@@ -58,6 +58,7 @@ const Checkout = () => {
   const handlePlaceOrder = () => {
     if (validateForm()) {
       setOrderPlaced(true);
+      clearCart();
     }
   };
 
@@ -89,7 +90,6 @@ const Checkout = () => {
                 <input name="lastName" value={shippingDetails.lastName} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded mb-2" placeholder="Last Name" />
                 <input name="streetAddress" value={shippingDetails.streetAddress} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded mb-2" placeholder="Street Address" />
                 <div className="grid grid-cols-3 gap-2">
-                  <input name="aptNumber" value={shippingDetails.aptNumber} onChange={handleChange} className="p-2 border border-gray-300 rounded" placeholder="Apt Number" />
                   <input name="state" value={shippingDetails.state} onChange={handleChange} className="p-2 border border-gray-300 rounded" placeholder="State" />
                   <input name="zip" value={shippingDetails.zip} onChange={handleChange} className="p-2 border border-gray-300 rounded" placeholder="Zip" />
                 </div>
@@ -109,7 +109,6 @@ const Checkout = () => {
                       <div className="grid grid-cols-3 gap-2">
                         <input name="expiry" value={shippingDetails.expiry} onChange={handleChange} className="p-2 border border-gray-300 rounded" placeholder="MM/YY" />
                         <input name="cvv" value={shippingDetails.cvv} onChange={handleChange} className="p-2 border border-gray-300 rounded" placeholder="CVV" />
-                        <input className="p-2 border border-gray-300 rounded" placeholder="Zip" />
                       </div>
                     </div>
                   )}

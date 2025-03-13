@@ -63,7 +63,7 @@ export default function PopularProducts() {
                 pathname: "/product",
                 query: { name: product.name, img: product.img, img1: product.img1, price: product.price, colors: product.colors },
               }}>
-              <div className="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] bg-gray-100 rounded-full flex items-center justify-center mx-auto">
+              <div className="w-[200px] h-[200px] overflow-hidden sm:w-[250px] sm:h-[250px] bg-gray-100 rounded-full flex items-center justify-center mx-auto">
                 <img
                   src={product.img}
                   alt={product.name}
