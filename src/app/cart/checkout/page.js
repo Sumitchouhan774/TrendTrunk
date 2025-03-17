@@ -133,7 +133,7 @@ const Checkout = () => {
                 <h2 className="font-semibold mb-4">Order Summary</h2>
                 <p>Items ({cart.length}): <span className="float-right">£{subtotal.toFixed(2)}</span></p>
                 <p>Shipping & Handling: <span className="float-right">£{shipping.toFixed(2)}</span></p>
-                <p>After Tax: <span className="float-right">£{total.toFixed(2)}</span></p>
+                <p>Before Tax: <span className="float-right">£{total.toFixed(2)}</span></p>
                 <p>Tax Collected: <span className="float-right">£{tax.toFixed(2)}</span></p>
                 <hr className="my-2" />
                 <p className="font-semibold">Order Total: <span className="float-right">£{total.toFixed(2)}</span></p>
