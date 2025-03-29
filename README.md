@@ -5,7 +5,7 @@ Welcome to **TrendTrunk**, a modern and stylish e-commerce platform offering pre
 ---
 
 ## 🚀 Live Demo
-🔗 [View the Website](https://trend-trunk.vercel.app/) *(Add your live demo link here)*
+🔗 [View the Website](https://trend-trunk.vercel.app/)
 
 ---
 
